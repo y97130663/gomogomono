@@ -18,7 +18,10 @@ func (t vehicle) carry() string{
 }
 
 func main(){
+	fmt.Println("Hello World")
 	fmt.Println("Main function starts here!")
 	t := vehicle {cargo: true, passengers: true}
-	fmt.Println(t.carry())
+	p := vehicle {cargo: false, passengers: true}
+	fmt.Println("T: ", t.carry())
+	fmt.Println("P: ", p.carry())
 }
