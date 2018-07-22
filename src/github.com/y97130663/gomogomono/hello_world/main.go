@@ -25,3 +25,11 @@ func main(){
 	fmt.Println("T: ", t.carry())
 	fmt.Println("P: ", p.carry())
 }
+/*
+Output:
+----------------------
+Hello World
+Main function starts here!
+T:  Yes it is truck
+P:  No it is not a truck
+*/
