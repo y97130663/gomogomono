@@ -6,30 +6,8 @@
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_helloworld/main.go" afterDir="false" />
-      <change beforePath="/.gitignore" beforeDir="false" />
-      <change beforePath="/LICENSE" beforeDir="false" />
-      <change beforePath="/README" beforeDir="false" />
-      <change beforePath="/Rakefile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" />
-      <change beforePath="/bin/ti" beforeDir="false" />
-      <change beforePath="/bin/ticgitweb" beforeDir="false" />
-      <change beforePath="/examples/post-commit" beforeDir="false" />
-      <change beforePath="/lib/ticgit.rb" beforeDir="false" />
-      <change beforePath="/lib/ticgit/base.rb" beforeDir="false" />
-      <change beforePath="/lib/ticgit/cli.rb" beforeDir="false" />
-      <change beforePath="/lib/ticgit/comment.rb" beforeDir="false" />
-      <change beforePath="/lib/ticgit/ticket.rb" beforeDir="false" />
-      <change beforePath="/note/IMPLEMENT" beforeDir="false" />
-      <change beforePath="/note/NOTES" beforeDir="false" />
-      <change beforePath="/note/OUTPUT" beforeDir="false" />
-      <change beforePath="/note/TODO" beforeDir="false" />
-      <change beforePath="/spec/base_spec.rb" beforeDir="false" />
-      <change beforePath="/spec/cli_spec.rb" beforeDir="false" />
-      <change beforePath="/spec/spec_helper.rb" beforeDir="false" />
-      <change beforePath="/spec/ticgit_spec.rb" beforeDir="false" />
-      <change beforePath="/ticgit.gemspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/y97130663/gomogomono/01_helloworld/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/y97130663/gomogomono/01_helloworld/main.go" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,12 +23,12 @@
     <favorites_list name="gomogomono" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01_helloworld/main.go">
+        <entry file="file://$PROJECT_DIR$/src/github.com/y97130663/gomogomono/01_helloworld/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -64,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="/usr/local/Cellar/go/1.9.2/libexec" />
+  <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,10 +50,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
-        <option value="$PROJECT_DIR$/main.go" />
-        <option value="$PROJECT_DIR$/01_helloworld/01_helloworld.go" />
-        <option value="$PROJECT_DIR$/01_helloworld/main.go" />
+        <option value="$PROJECT_DIR$/src/github.com/y97130663/gomogomono/01_helloworld/main.go" />
       </list>
     </option>
   </component>
@@ -89,40 +64,34 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="292" />
-    <option name="y" value="451" />
-    <option name="width" value="871" />
-    <option name="height" value="540" />
+    <option name="x" value="62" />
+    <option name="y" value="23" />
+    <option name="width" value="1131" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <showMembers ProjectPane="true" />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="gomogomono" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gomogomono" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gomogomono" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gomogomono" type="462c0819:PsiDirectoryNode" />
               <item name="01_helloworld" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gomogomono" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,7 +104,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="goland.project.structure" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -150,55 +119,30 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/y97130663/gomogomono/01_helloworld" type="GoApplicationRunConfiguration" factoryName="Go Application" editBeforeRun="true">
       <module name="gomogomono" />
-      <working_directory value="$PROJECT_DIR$/" />
+      <working_directory value="$PROJECT_DIR$/src/github.com/y97130663/gomogomono/01_helloworld" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/01_helloworld/main.go" />
+      <filePath value="$PROJECT_DIR$/01_helloworld/main.go|$PROJECT_DIR$/src/github.com/y97130663/gomogomono/main.go" />
       <package value="github.com/y97130663/gomogomono" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Go Build.go build main.go" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="06612d2e-e470-49ba-9d95-915d8c8c7fb0" name="Default" comment="" />
-      <created>1532221349784</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1532221349784</updated>
-      <workItem from="1532221351911" duration="89000" />
-      <workItem from="1532222374139" duration="7000" />
-      <workItem from="1532222477645" duration="468000" />
-    </task>
-    <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="564000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="589" y="222" width="871" height="540" extended-state="0" />
-    <editor active="true" />
+    <frame x="62" y="23" width="1131" height="777" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49812734" visible="true" weight="0.15843858" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49812734" visible="true" weight="0.12820514" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50287026" side_tool="true" visible="true" weight="0.32832617" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.4325069" side_tool="true" weight="0.3" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49698433" weight="0.34411764" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49942595" weight="0.39270386" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49712974" visible="true" weight="0.32832617" />
-      <window_info id="Structure" order="1" sideWeight="0.50187266" side_tool="true" weight="0.20426829" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" sideWeight="0.50187266" side_tool="true" weight="0.20426829" />
+      <window_info id="Structure" order="1" sideWeight="0.50187266" side_tool="true" weight="0.20385675" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.56749314" weight="0.3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" sideWeight="0.50187266" side_tool="true" weight="0.20385675" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -208,6 +152,27 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49812734" visible="true" weight="0.12672177" />
+      <window_info id="Structure" order="1" sideWeight="0.50187266" side_tool="true" weight="0.20426829" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49698433" weight="0.34537247" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.56749314" visible="true" weight="0.3" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4325069" side_tool="true" weight="0.3" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49942595" weight="0.39270386" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info id="Favorites" order="2" sideWeight="0.50187266" side_tool="true" weight="0.20426829" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -257,7 +222,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="Git Configuration on Goland!" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.go">
+    <entry file="file://$PROJECT_DIR$/src/github.com/y97130663/gomogomono/01_helloworld/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
@@ -271,17 +236,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_helloworld/01_helloworld.go">
+    <entry file="file://$PROJECT_DIR$/01_helloworld/01_helloworld.go" />
+    <entry file="file://$PROJECT_DIR$/01_helloworld/main.go" />
+    <entry file="file://$PROJECT_DIR$/main.go" />
+    <entry file="file://$PROJECT_DIR$/src/github.com/y97130663/gomogomono/01_helloworld/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_helloworld/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
