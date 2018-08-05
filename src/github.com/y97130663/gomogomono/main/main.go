@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"github.com/y97130663/gomogomono/primenumber"
 	"reflect"
-	"github.com/y97130663/gomogomono/arrays"
 	"github.com/y97130663/gomogomono/slicing"
+	"github.com/y97130663/gomogomono/arrays"
 )
 
 var k = 0
@@ -34,16 +34,19 @@ func main(){
 
 	//slicing
 	slicing.Print_basic_slicing()
+	c := slicing.Makes_sliceof10(10)
+	d := slicing.Append_slicewith(c)
+	fmt.Println("The 10x1 array is:", c)
+	fmt.Println("The new slice appended is:", d)
 
-	//Array examples
-	arrays.Array_example_print_setter()
-	kgb := arrays.Array_example_print_setter()[1]
-	fmt.Println("Printing the index 1 from the array mentioned: ", kgb)
+	//Setter arrays
+	fmt.Println("h is:", arrays.Array_example_print_setter())
 
-	//Printing the array
-	fmt.Println("########")
+	//Another way to print
 	arrays.Print_ArrayExternal()
+
 }
+
 
 func fizzbuzz(){
 	/*
