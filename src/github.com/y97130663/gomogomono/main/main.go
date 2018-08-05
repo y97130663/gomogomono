@@ -5,6 +5,7 @@ import (
 	"github.com/y97130663/gomogomono/primenumber"
 	"reflect"
 	"github.com/y97130663/gomogomono/arrays"
+	"github.com/y97130663/gomogomono/slicing"
 )
 
 var k = 0
@@ -32,15 +33,21 @@ func main(){
 	fizzbuzz()
 
 	//slicing
-	slicing()
+	slicing.Print_basic_slicing()
 
 	//Array examples
-	arrays.Array_example_print()
+	arrays.Array_example_print_setter()
+	kgb := arrays.Array_example_print_setter()[1]
+	fmt.Println("Printing the index 1 from the array mentioned: ", kgb)
+
+	//Printing the array
+	fmt.Println("########")
+	arrays.Print_ArrayExternal()
 }
 
 func fizzbuzz(){
 	/*
-	Writeaprogramthatprintsthenumbersfrom1 to 100.
+	Write a program that prints the numbers from 1 to 100.
 	But for multiples of three print "Fizz" in- stead
 	of the number and for the multiples of five print "Buzz".
 	For numbers which are multiples of both three and five print "FizzBuzz".
@@ -60,12 +67,4 @@ func fizzbuzz(){
 		}
 	}
 
-}
-
-func slicing(){
-	var x = [7]int64{1,2,3,4,5,6,7}
-	var x_slicing_early = make([]int64, 5,7)
-	x_slicing_later := x[6:len(x)]
-	fmt.Println(x_slicing_early)
-	fmt.Println(x_slicing_later)
 }

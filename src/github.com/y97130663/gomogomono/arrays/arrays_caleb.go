@@ -9,7 +9,10 @@ var arraysExternal = [5]int64{
 							6,
 							7,
 }
-func Array_example_print() [5]int64{
-	fmt.Println(arraysExternal)
+func Array_example_print_setter() [5]int64{
 	return arraysExternal
+}
+
+func Print_ArrayExternal(){
+	fmt.Println("arraysExternal:", arraysExternal)
 }
