@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06612d2e-e470-49ba-9d95-915d8c8c7fb0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/hello_world/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gomogomono.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gomogomono.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primenumber/primenumber.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gomogomono.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,16 +25,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="primenumber.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/primenumber/primenumber.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hello_world/main.go">
+        <entry file="file://$PROJECT_DIR$/main/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            <state relative-caret-position="114">
+              <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -44,6 +52,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>categorized_result</find>
+      <find>CategorizedResults</find>
+    </findStrings>
+  </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
@@ -53,6 +67,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/hello_world/main.go" />
+        <option value="$PROJECT_DIR$/primenumbers/primenumber.go" />
+        <option value="$PROJECT_DIR$/primenumber/primenumber.go" />
+        <option value="$PROJECT_DIR$/main/main.go" />
       </list>
     </option>
   </component>
@@ -66,10 +83,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="177" />
-    <option name="y" value="57" />
-    <option name="width" value="1131" />
-    <option name="height" value="777" />
+    <option name="x" value="158" />
+    <option name="y" value="140" />
+    <option name="width" value="979" />
+    <option name="height" value="636" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -82,6 +99,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -92,13 +110,17 @@
             <path>
               <item name="gomogomono" type="b2602c69:ProjectViewProjectNode" />
               <item name="gomogomono" type="462c0819:PsiDirectoryNode" />
-              <item name="hello_world" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gomogomono" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gomogomono" type="462c0819:PsiDirectoryNode" />
+              <item name="primenumber" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -160,19 +182,27 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="177" y="57" width="1131" height="777" extended-state="0" />
-    <editor active="true" />
+    <frame x="158" y="140" width="979" height="636" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49812734" visible="true" weight="0.13682278" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.4325069" side_tool="true" weight="0.2989378" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49812734" visible="true" weight="0.13340448" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32776934" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.52066714" side_tool="true" weight="0.34294385" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.35996327" visible="true" weight="0.34294385" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49942595" weight="0.39270386" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.85165423" weight="0.43629342" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49942595" weight="0.3915023" />
       <window_info id="Structure" order="1" sideWeight="0.50187266" side_tool="true" weight="0.20385675" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.6400367" side_tool="true" visible="true" weight="0.34294385" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.14834578" side_tool="true" visible="true" weight="0.43629342" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" sideWeight="0.50187266" side_tool="true" weight="0.20385675" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -188,21 +218,21 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49812734" visible="true" weight="0.12672177" />
       <window_info id="Structure" order="1" sideWeight="0.50187266" side_tool="true" weight="0.20426829" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49942595" weight="0.39270386" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49698433" weight="0.34537247" />
-      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.56749314" visible="true" weight="0.3" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4325069" side_tool="true" weight="0.3" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49942595" weight="0.39270386" />
+      <window_info anchor="bottom" id="Message" order="1" />
       <window_info id="Favorites" order="2" sideWeight="0.50187266" side_tool="true" weight="0.20426829" />
     </layout-to-restore>
   </component>
@@ -218,16 +248,32 @@
     <option name="LAST_COMMIT_MESSAGE" value="Git Configuration on Goland!" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello_world/main.go">
+    <entry file="file://$PROJECT_DIR$/primenumber/primenumber.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="35" column="50" lean-forward="true" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello_world/main.go" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello_world/main.go" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello_world/main.go" />
     <entry file="file://$PROJECT_DIR$/src/github.com/y97130663/gomogomono/01_helloworld/main.go" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -240,13 +286,21 @@
     <entry file="file://$PROJECT_DIR$/01_helloworld/main.go" />
     <entry file="file://$PROJECT_DIR$/main.go" />
     <entry file="file://$PROJECT_DIR$/src/github.com/y97130663/gomogomono/01_helloworld/main.go" />
+    <entry file="file://$PROJECT_DIR$/hello_world/main.go" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello_world/main.go">
+    <entry file="file://$PROJECT_DIR$/primenumber/primenumber.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
         </state>
       </provider>
     </entry>
