@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/y97130663/gomogomono/primenumber"
 	"reflect"
+	"github.com/y97130663/gomogomono/arrays"
 )
 
 var k = 0
@@ -26,7 +27,15 @@ func main(){
 	}
 	fmt.Println(y)
 	fmt.Println(y[2])
+
+	//performing fizzbuzz
 	fizzbuzz()
+
+	//slicing
+	slicing()
+
+	//Array examples
+	arrays.Array_example_print()
 }
 
 func fizzbuzz(){
@@ -50,4 +59,13 @@ func fizzbuzz(){
 			fmt.Printf("%d FizzBuzz \n", i)
 		}
 	}
+
+}
+
+func slicing(){
+	var x = [7]int64{1,2,3,4,5,6,7}
+	var x_slicing_early = make([]int64, 5,7)
+	x_slicing_later := x[6:len(x)]
+	fmt.Println(x_slicing_early)
+	fmt.Println(x_slicing_later)
 }
