@@ -3,10 +3,11 @@ package main
 import (
 	"fmt"
 	"github.com/y97130663/gomogomono/primenumber"
+	"reflect"
 )
 
 var k = 0
-var input int16
+var input string
 
 func main(){
 	var a = k
@@ -17,18 +18,14 @@ func main(){
 	//primenumber.Primenumbers(B)
 	fmt.Printf("The user entered value with improper string formatting is %s \n", input)
 	fmt.Printf("The user entered value is %d \n", input)
-	fmt.Printf("The user entered value after type conversion is %d \n", int(input))
-
+	fmt.Printf("The user entered value after type conversion is %d \n", input)
 	x := 2
 	var y [5]int
-
 	for i := 0; i <= x; i++{
 		y[i] = i
 	}
-
 	fmt.Println(y)
 	fmt.Println(y[2])
-
 	fizzbuzz()
 }
 
@@ -39,11 +36,18 @@ func fizzbuzz(){
 	of the number and for the multiples of five print "Buzz".
 	For numbers which are multiples of both three and five print "FizzBuzz".
 	*/
-
-	var input2 int32
+	input2 := 10
 	fmt.Println("Enter the range for the fizzbuzz")
 	fmt.Scan( &input2)
-	fmt.Printf("Enter the range for the fizzbuzz is %d", input2)
-
-
+	fmt.Printf("Enter the range for the fizzbuzz is %d \n", input2)
+	fmt.Println("The format is ", reflect.TypeOf(input2))
+	for i:=0; i<=int(input2); i++{
+		if i % 3 == 0 && i % 15 !=0{
+			fmt.Printf("%d Fizz \n", i)
+		} else if i % 5 ==0 && i % 15 != 0{
+			fmt.Printf("%d Buzz \n", i)
+		} else if i % 15 == 0{
+			fmt.Printf("%d FizzBuzz \n", i)
+		}
+	}
 }
