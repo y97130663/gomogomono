@@ -1,0 +1,44 @@
+topic_title,category,sub_category,is_pm,post,like_count,reply_count,url,created_at
+Print fields of a struct %+v,Getting Help,Code Review,No,"How do I print the name of the fields (here t and p) of a struct? 
+
+
+    package main
+
+    import ""fmt""
+
+    type drive interface {
+    	carry() string
+    }
+
+    type vehicle struct{
+    	passengers, cargo bool
+    }
+
+    func (t vehicle) carry() string{
+    	if t.cargo && t.passengers {
+    		return ""Yes it is truck""
+    	}
+    	return ""No it is not a truck""
+    }
+    // How to print the ""t"" and ""p""?
+    func categorized_result(d drive){
+    	fmt.Println(""%v\n"", d)
+    	fmt.Println(d.carry())
+    }
+
+    func main(){
+    	fmt.Println(""Hello World"")
+    	fmt.Println(""Main function starts here!"")
+    	t := vehicle {cargo: true, passengers: true}
+    	p := vehicle {cargo: false, passengers: true}
+    	categorized_result(t)
+    	categorized_result(p)
+    }
+    /*
+    Need Output Like this:
+    ----------------------
+    Hello World
+    Main function starts here!
+    T:  Yes it is truck
+    P:  No it is not a truck
+    */",0,0,https://forum.golangbridge.org/t/print-fields-of-a-struct-v/9944/1,2018-07-22 04:32:13 UTC
