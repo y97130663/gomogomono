@@ -6,6 +6,7 @@ import (
 	"reflect"
 	"github.com/y97130663/gomogomono/slicing"
 	"github.com/y97130663/gomogomono/arrays"
+	"github.com/y97130663/gomogomono/maps_example"
 )
 
 var k = 0
@@ -45,6 +46,9 @@ func main(){
 	//Another way to print
 	arrays.Print_ArrayExternal()
 
+	//maps_example.X["key"] = 5
+	maps_example.Print_maps()
+
 }
 
 
@@ -71,3 +75,5 @@ func fizzbuzz(){
 	}
 
 }
+
+
