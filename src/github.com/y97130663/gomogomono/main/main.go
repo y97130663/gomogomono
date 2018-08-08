@@ -7,10 +7,14 @@ import (
 	"github.com/y97130663/gomogomono/slicing"
 	"github.com/y97130663/gomogomono/arrays"
 	"github.com/y97130663/gomogomono/maps_example"
+	"github.com/y97130663/gomogomono/smallest_number_unordered_list"
 )
 
 var k = 0
 var input string
+
+var slice1 = []int{3,4,5}
+var slice2 = make([]int,2)
 
 func main(){
 	var a = k
@@ -49,6 +53,16 @@ func main(){
 	//maps_example.X["key"] = 5
 	maps_example.Print_maps()
 
+	copy_Slicing(slice1, slice2)
+
+	//smallest_number_unordered_list.Smallest()
+	//
+	//smallest_number_unordered_list.Smallest_with_range()
+
+	fmt.Println("The smallest number of the slice is", smallest_number_unordered_list.Smallest())
+
+	fmt.Println("The smallest number with range is", smallest_number_unordered_list.Smallest_with_range())
+
 }
 
 
@@ -76,4 +90,7 @@ func fizzbuzz(){
 
 }
 
-
+func copy_Slicing(slice1 []int, slice2 []int){
+	copy(slice2, slice1)
+	fmt.Println("The copied slice is ", slice2)
+}
